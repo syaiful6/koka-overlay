@@ -10,11 +10,11 @@
       pname = "koka";
       inherit version;
 
-      src = fetchzip {
+      src = pkgs.fetchurl {
         url = releaseInfo.url;
         sha256 = releaseInfo.sha256;
-        stripRoot = false;
       };
+      sourceRoot = ".";
 
       installPhase = ''
         set -x # Enable shell tracing for debugging

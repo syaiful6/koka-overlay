@@ -41,13 +41,10 @@
           # Default development shell for the current system.
           devShells.default = pkgs.mkShell {
             nativeBuildInputs = with pkgs; [
+              packages.default
               curl
               jq
             ];
-            shellHook = ''
-              echo "Entering Koka development shell for system ${system}."
-              echo "Koka version: $(koka --version)"
-            '';
           };
 
           # For compatibility with older versions of the `nix` binary (optional)
