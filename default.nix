@@ -72,23 +72,25 @@
         description = "A functional language with effect types and handlers";
         homepage = "https://koka-lang.github.io/";
         #license = lib.licenses.apache20;
-        platforms = [ system ];
+        platforms = [system];
       };
     };
 
-  kokaVersionsForCurrentSystem = lib.mapAttrs (version: platforms:
-    let releaseInfo = platforms.${system} or null; in
-    if releaseInfo != null then
-      mkKokaDerivation version system releaseInfo
-    else
-      null
-  ) sources;
+  kokaVersionsForCurrentSystem =
+    lib.mapAttrs (
+      version: platforms: let
+        releaseInfo = platforms.${system} or null;
+      in
+        if releaseInfo != null
+        then mkKokaDerivation version system releaseInfo
+        else null
+    )
+    sources;
 
   filteredKokaVersions = lib.filterAttrs (name: value: value != null) kokaVersionsForCurrentSystem;
 
   latestVersion = lib.lists.last (builtins.sort (x: y: (builtins.compareVersions x y) < 0) (lib.attrNames filteredKokaVersions));
-in
-{
+in {
   versions = filteredKokaVersions;
 
   # Provide a 'default' Koka package for the current system (the latest available).
