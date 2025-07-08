@@ -1,6 +1,11 @@
 # Nix Flake for Koka
 
-This repository is a Nix flake packaging the [Koka](https://github.com/koka-lang/koka).
+This repository is a Nix flake packaging the [Koka](https://github.com/koka-lang/koka) compiler. Only a few versions defined currently.
+
+## TODO
+
+- Allow to build [Koka](https://github.com/koka-lang/koka) compiler from source.
+- List more old Koka versions in `sources.json`.
 
 ## Credits
 
