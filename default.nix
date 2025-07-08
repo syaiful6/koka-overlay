@@ -17,12 +17,8 @@
       sourceRoot = ".";
 
       installPhase = ''
-        set -x # Enable shell tracing for debugging
-
         # With stripRoot=false, the contents are directly in the current directory.
         # We no longer need to find an 'extracted_dir'.
-        echo "Contents of current directory after fetchzip (with stripRoot=false):"
-        ls -R . # List all contents recursively for debugging
 
         # Create the necessary output directories in the Nix store.
         # We'll put the main executable in $out/bin, libraries in $out/lib/,
@@ -64,8 +60,6 @@
           echo "Warning: share/koka directory not found in ./"
         fi
 
-        echo "Contents of $out/bin:"
-        ls -l $out/bin # Verify binary is in $out/bin
       '';
 
       meta = with lib; {
