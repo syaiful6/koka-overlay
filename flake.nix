@@ -28,7 +28,9 @@
         # The packages exported by the Flake:
         # - default: latest /released/ version for the current system
         # - versions: attribute set of all tagged versions for the current system
-        packages = kokaPackages; # Expose all packages from default.nix
+        packages = {
+          default = kokaPackages.default;
+        } // (builtins.mapAttrs (name: pkg: pkg) kokaPackages.versions);
 
         # "Apps" so that `nix run` works.
         # `nix run .` will use the default app.
@@ -57,7 +59,10 @@
     outputs
     // {
       overlays.default = final: prev: {
-        kokapkgs = outputs.packages.${prev.system};
+        kokapkgs = {
+          default = outputs.packages.${prev.system}.default;
+          versions = builtins.removeAttrs outputs.packages.${prev.system} ["default"];
+        };
       };
     };
 }
