@@ -1,40 +1,18 @@
 {
-  "3.1.2": {
-    "x86_64-linux": {
-      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-linux-x64.tar.gz",
-      "sha256": "19mknc8w5zxwvyp2pqm4s5w9z0w2cac9mvqp3g2d273w2jsq2bx6",
-      "version": "3.1.2"
-    },
-    "aarch64-darwin": {
-      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-macos-arm64.tar.gz",
-      "sha256": "0vrvw25h1s6kqcil5srr2l8hgqpr8zsmsrp40hp9crr2cpr6f172",
-      "version": "3.1.2"
-    },
-    "x86_64-darwin": {
-      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-macos-x64.tar.gz",
-      "sha256": "095lc5byyl5j94s8hsl3a858ng0nbfi9q75hlfwd4m5hrxjjkv4k",
-      "version": "3.1.2"
-    },
-    "x86_64-windows": {
-      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-windows-x64.tar.gz",
-      "sha256": "1gc30yf708k8n685yzbbpdrcq2qc9yb4w8biid3i0wgiz267fc80",
-      "version": "3.1.2"
-    }
-  },
   "3.1.3": {
-    "x86_64-linux": {
-      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-linux-x64.tar.gz",
-      "sha256": "1wanxbaasmiab9dzqg3yn3d4afnhfbd975wwdnkbmqzvikf6sccm",
-      "version": "3.1.3"
-    },
     "aarch64-linux": {
       "url": "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-linux-arm64.tar.gz",
       "sha256": "0g2av4yjinyc5vgrqqyvxpfgridw3v1lhnb2ckwx5jwd0pfyxy08",
       "version": "3.1.3"
     },
-    "aarch64-darwin": {
-      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-macos-arm64.tar.gz",
-      "sha256": "0c6csws4w951rmwr4m2ggsm927r6gnfmi0ma7b5w4wnb5cyqjr3q",
+    "x86_64-linux": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-linux-x64.tar.gz",
+      "sha256": "1wanxbaasmiab9dzqg3yn3d4afnhfbd975wwdnkbmqzvikf6sccm",
+      "version": "3.1.3"
+    },
+    "x86_64-windows": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-windows-x64.tar.gz",
+      "sha256": "0ypzjab7yk0z8kb1mp2ix8i5lcgjqy2lzh2i9665ggl5k9rymp1b",
       "version": "3.1.3"
     },
     "x86_64-darwin": {
@@ -42,10 +20,142 @@
       "sha256": "0ki89xxn37x0ziwqns6h3j1xfc5ix6mggv2pzkqakmjg79diz4s3",
       "version": "3.1.3"
     },
-    "x86_64-windows": {
-      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-windows-x64.tar.gz",
-      "sha256": "0ypzjab7yk0z8kb1mp2ix8i5lcgjqy2lzh2i9665ggl5k9rymp1b",
+    "aarch64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.3/koka-v3.1.3-macos-arm64.tar.gz",
+      "sha256": "0c6csws4w951rmwr4m2ggsm927r6gnfmi0ma7b5w4wnb5cyqjr3q",
       "version": "3.1.3"
+    }
+  },
+  "3.1.2": {
+    "x86_64-linux": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-linux-x64.tar.gz",
+      "sha256": "19mknc8w5zxwvyp2pqm4s5w9z0w2cac9mvqp3g2d273w2jsq2bx6",
+      "version": "3.1.2"
+    },
+    "x86_64-windows": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-windows-x64.tar.gz",
+      "sha256": "1gc30yf708k8n685yzbbpdrcq2qc9yb4w8biid3i0wgiz267fc80",
+      "version": "3.1.2"
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-macos-x64.tar.gz",
+      "sha256": "095lc5byyl5j94s8hsl3a858ng0nbfi9q75hlfwd4m5hrxjjkv4k",
+      "version": "3.1.2"
+    },
+    "aarch64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.2/koka-v3.1.2-macos-arm64.tar.gz",
+      "sha256": "0vrvw25h1s6kqcil5srr2l8hgqpr8zsmsrp40hp9crr2cpr6f172",
+      "version": "3.1.2"
+    }
+  },
+  "3.1.1": {
+    "x86_64-linux": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.1/koka-v3.1.1-linux-x64.tar.gz",
+      "sha256": "0wqkzky36rd0j1hfl6nkz6kvw4941cbqyrmsdv9bk1ghvj70h01w",
+      "version": "3.1.1"
+    },
+    "x86_64-windows": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.1/koka-v3.1.1-windows-x64.tar.gz",
+      "sha256": "0zml5rh02ifv79id5q811hyylgdcqhys7azfwqdbgxkzmk2fkzw4",
+      "version": "3.1.1"
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.1/koka-v3.1.1-macos-x64.tar.gz",
+      "sha256": "039rj3k81dmdhar73z3i8jc68cgvk5pg5ghbcb8llyn1jkh7zl2n",
+      "version": "3.1.1"
+    },
+    "aarch64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.1/koka-v3.1.1-macos-arm64.tar.gz",
+      "sha256": "12jbfhxgg7bwszaknw1ssriiv63r45cj1wni8k5zdlnhga86nhv4",
+      "version": "3.1.1"
+    }
+  },
+  "3.1.0": {
+    "x86_64-linux": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.0/koka-v3.1.0-linux-x64.tar.gz",
+      "sha256": "1y75jfs7c0z8s3ignq8z8a983xwhdr4a9i0zlbgff02mhg3cxlla",
+      "version": "3.1.0"
+    },
+    "x86_64-windows": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.0/koka-v3.1.0-windows-x64.tar.gz",
+      "sha256": "15y90k9599w36d6vzzzzlixkpqllvqax378qigxs67qj2pk3qqsg",
+      "version": "3.1.0"
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.0/koka-v3.1.0-macos-x64.tar.gz",
+      "sha256": "1jii777qjghskspal208wkymlibcdzql9vqms2sg0h4pz6a31v6p",
+      "version": "3.1.0"
+    },
+    "aarch64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.1.0/koka-v3.1.0-macos-arm64.tar.gz",
+      "sha256": "17349ln7y2zkdr7l553xlgbgsa3vvqff61f836cip9g428knw4b6",
+      "version": "3.1.0"
+    }
+  },
+  "3.0.4": {
+    "x86_64-linux": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.4/koka-v3.0.4-linux-x64.tar.gz",
+      "sha256": "1kk45djkkr26ayfjwqcxf0dsi5p5nanbydimskksms65arxyfq4i",
+      "version": "3.0.4"
+    },
+    "x86_64-windows": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.4/koka-v3.0.4-windows-x64.tar.gz",
+      "sha256": "17lzsxwfg1r0nhmw74y85dwchzma2i6kwfb8848i5bqxg8m2n4vi",
+      "version": "3.0.4"
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.4/koka-v3.0.4-macos-x64.tar.gz",
+      "sha256": "0ga384vpjjqyyn3nslld5kpsvrcm3azb2zbr4fjxa87vdgwjz2df",
+      "version": "3.0.4"
+    },
+    "aarch64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.4/koka-v3.0.4-macos-arm64.tar.gz",
+      "sha256": "05yc509vcdw1l0rjnvb4dxigrjpfvnv0jir4k16qb94hjcd0f5n2",
+      "version": "3.0.4"
+    }
+  },
+  "3.0.1": {
+    "x86_64-linux": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.1/koka-v3.0.1-linux-x64.tar.gz",
+      "sha256": "056gns6ipqcs97s15lzl6qwnrzw1p3dps1kpvcnnl02f6jll0k69",
+      "version": "3.0.1"
+    },
+    "x86_64-windows": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.1/koka-v3.0.1-windows-x64.tar.gz",
+      "sha256": "1bcfwbr1gc36q2xyfl34hlnd8n5l0s9i4j8rp9fvdhjnglicxm4l",
+      "version": "3.0.1"
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.1/koka-v3.0.1-macos-x64.tar.gz",
+      "sha256": "0fai0g3b5ydv8sq5qw3cv3bgnhifvmf9s6q482v386zbzalvyvpc",
+      "version": "3.0.1"
+    },
+    "aarch64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.1/koka-v3.0.1-macos-arm64.tar.gz",
+      "sha256": "1h3jix3rlcqzzqqz1gcw2mikbx6mzpqwcblk6bvqprhv5ckzqh91",
+      "version": "3.0.1"
+    }
+  },
+  "3.0.0": {
+    "x86_64-linux": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.0/koka-v3.0.0-linux-x64.tar.gz",
+      "sha256": "1ywhfamvbjx8rl5r6jbrvv5br8inbd1b850zqm1kfh541vqwka2c",
+      "version": "3.0.0"
+    },
+    "x86_64-windows": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.0/koka-v3.0.0-windows-x64.tar.gz",
+      "sha256": "1axnxbww073c1fs4wv478d735ygmjzhpm0hqyn24mm2lqvmxcsg0",
+      "version": "3.0.0"
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.0/koka-v3.0.0-macos-x64.tar.gz",
+      "sha256": "1w7rj6hr1nb3qfssnvavbnykxr775bihm8q670i8xa7w89291r3i",
+      "version": "3.0.0"
+    },
+    "aarch64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.0.0/koka-v3.0.0-macos-arm64.tar.gz",
+      "sha256": "0vz035492z08ni9f92rqn6yp5zypbxdljpkd7ahqgy9dfc2k0dqn",
+      "version": "3.0.0"
     }
   }
 }
