@@ -1,5 +1,6 @@
 {
-  pkgs ? import <nixpkgs> {},
+  nixpkgs ? <nixpkgs>,
+  pkgs ? import nixpkgs {},
   system ? builtins.currentSystem,
 }: let
   inherit (pkgs) lib stdenv fetchzip;

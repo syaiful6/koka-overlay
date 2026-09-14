@@ -178,7 +178,7 @@ update_sources() {
             ((count++))
             print_success "Added version: $version"
         fi
-    done <<< "$(echo "$releases" | tail -r)" # Reverse order using tail -r (macOS compatible)
+    done <<< "$(echo "$releases" | tail)" # Reverse order using tail -r (macOS compatible)
     
     echo "" >> "$temp_file"
     echo "}" >> "$temp_file"

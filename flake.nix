@@ -23,14 +23,16 @@
       system: let
         pkgs = import nixpkgs {inherit system;};
 
-        kokaPackages = import ./default.nix {inherit system pkgs;};
+        kokaPackages = import ./default.nix {inherit nixpkgs system pkgs;};
       in rec {
         # The packages exported by the Flake:
         # - default: latest /released/ version for the current system
         # - versions: attribute set of all tagged versions for the current system
-        packages = {
-          default = kokaPackages.default;
-        } // (builtins.mapAttrs (name: pkg: pkg) kokaPackages.versions);
+        packages =
+          {
+            default = kokaPackages.default;
+          }
+          // (builtins.mapAttrs (name: pkg: pkg) kokaPackages.versions);
 
         # "Apps" so that `nix run` works.
         # `nix run .` will use the default app.

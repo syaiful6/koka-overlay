@@ -1,4 +1,31 @@
 {
+  "3.2.3": {
+    "aarch64-linux": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.2.3/koka-v3.2.3-linux-arm64.tar.gz",
+      "sha256": "00jc8vgp4jldfah6yvfcndzzakymj9zx1hdw9wxxvl9brrkga36f",
+      "version": "3.2.3"
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.2.3/koka-v3.2.3-linux-x64.tar.gz",
+      "sha256": "19g5rmngmfl8jvfmsr2x90p465msjd9c81hx2zp931qzgx4lnap8",
+      "version": "3.2.3"
+    },
+    "x86_64-windows": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.2.3/koka-v3.2.3-windows-x64.tar.gz",
+      "sha256": "0xz7m82fpjm1dmn64i36lsi2i902alc0py25kpcwlv709ha667nl",
+      "version": "3.2.3"
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.2.3/koka-v3.2.3-macos-x64.tar.gz",
+      "sha256": "0kh38xndy0qbqyyy74icpnryjdvb477s1xbkwbvmk17x342wkhl3",
+      "version": "3.2.3"
+    },
+    "aarch64-darwin": {
+      "url": "https://github.com/koka-lang/koka/releases/download/v3.2.3/koka-v3.2.3-macos-arm64.tar.gz",
+      "sha256": "1f4fd6sahk2ai1y8l0s4w8rx87xfrrk318kxqr58jxlqcy64xs7z",
+      "version": "3.2.3"
+    }
+  },
   "3.2.2": {
     "aarch64-linux": {
       "url": "https://github.com/koka-lang/koka/releases/download/v3.2.2/koka-v3.2.2-linux-arm64.tar.gz",
